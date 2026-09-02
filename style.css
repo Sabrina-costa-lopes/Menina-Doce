@@ -412,6 +412,8 @@ header {
   aspect-ratio: 900 / 966;
   box-shadow: var(--shadow-image);
   border: 1px solid rgba(201, 161, 90, 0.35);
+  touch-action: none;
+  cursor: ew-resize;
 }
 
 .ba-frame img {
